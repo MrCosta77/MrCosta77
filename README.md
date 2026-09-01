@@ -3,8 +3,12 @@
 </h1>
 
 <h3 align="center">
-  Data Engineer & Statistical Programmer | Specializing in Clinical Data (OMOP, CDISC, FHIR)
+  Biochemist | Clinical Data Engineer | Statistical Programmer
 </h3>
+
+<p align="center">
+  Python • SAS • SQL | CDISC SDTM/ADaM • FHIR • OMOP CDM
+</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/m%C3%A1rio-costa-469b56206/">
@@ -17,9 +21,19 @@
 
 ---
 
-I am a passionate **Data Engineer / Statistical Programmer** looking to make an impact in the Healthcare and Clinical Research Organization (CRO) sectors. My focus is on transforming raw healthcare data into actionable insights through robust, compliant, and scalable pipelines.
+I am a **biochemist specializing in Clinical Data Engineering and Statistical
+Programming**. I build reproducible and auditable pipelines across **CDISC,
+FHIR, and OMOP CDM**, combining biomedical domain knowledge with Python, SAS,
+SQL, data quality controls, and clinical terminology governance.
 
-I specialize in mapping and normalizing clinical data across industry standards like **FHIR, OMOP CDM, and CDISC**, leveraging modern tools like **Python, SAS, DuckDB, and Local LLMs (RAG)** to automate complex semantic mappings while maintaining strict governance and «Human-in-the-Loop» safety protocols.
+My portfolio follows clinical data from synthetic raw EDC or FHIR inputs to
+analysis- and RWE-oriented structures. It emphasizes traceability, deterministic
+processing, explicit validation boundaries, and human-reviewed semantic mapping.
+The projects are portfolio/reference implementations and do not claim regulatory
+validation or clinical production use.
+
+I am seeking junior opportunities in **CROs, pharmaceutical companies, RWE, and
+healthcare IT**, in Portugal, across Europe, or remotely.
 
 ### 🛠️ Tech Stack & Skills
 
@@ -36,20 +50,21 @@ I specialize in mapping and normalizing clinical data across industry standards 
 My portfolio forms a coherent narrative covering the entire clinical data lifecycle, from Raw Electronic Data Capture (EDC) to Real-World Evidence (RWE) ready formats:
 
 #### 1. [FHIR-to-OMOP](https://github.com/MrCosta77/FHIR-to-OMOP) *(Python, DuckDB, AI)*
-An enterprise-grade mapping framework that transforms FHIR JSON bundles into OMOP CDM v5.4. 
-- Features a sophisticated **RAG engine** for semantic mapping using local LLMs.
-- Implements strict **Data Governance**, Blinded Review Queues, and «Fail-Closed» defaults.
-- End-to-end pipeline tested with 200+ integration and data quality tests.
+A production-oriented reference framework that transforms synthetic FHIR JSON
+bundles into OMOP CDM v5.4.
+- Combines deterministic terminology mapping with **RAG and local LLM proposals**.
+- Implements fail-closed controls, blinded human review, provenance, and DQD checks.
+- Includes CI, an extensive automated test suite, versioned benchmarks, and a reproducible release process.
 
 #### 2. [CDISC-to-OMOP](https://github.com/MrCosta77/CDISC-to-OMOP) *(Python)*
-A data integration pipeline standardizing clinical trial data.
-- Maps CDISC SDTM datasets into the OMOP Common Data Model.
-- Leverages LLM-assisted mapping for complex medical terminologies.
+A clinical data integration reference pipeline with production-oriented controls.
+- Maps synthetic CDISC SDTM datasets into OMOP CDM v5.4 with record-level lineage.
+- Uses deterministic and LLM-assisted terminology proposals behind a human approval gate.
 
 #### 3. [Clinical-data-to-CDISC](https://github.com/MrCosta77/Clinical-data-to-CDISC) *(SAS, Python)*
-The foundation of clinical reporting.
-- Transforms Raw EDC data into CDISC compliant SDTM and ADaM datasets.
-- Utilizes both SAS and Python to ensure regulatory compliance and submission readiness.
+An educational clinical programming pipeline built with synthetic study data.
+- Transforms raw EDC-style inputs into CDISC-inspired SDTM and ADaM datasets.
+- Demonstrates defensive SAS programming, QC, TLFs, and a structural Define-XML prototype without claiming submission readiness.
 
 ---
 
@@ -69,5 +84,5 @@ flowchart LR
 ---
 
 <p align="center">
-  <i>Seeking opportunities as a Junior Clinical Data Engineer / Statistical Programmer. Open to collaborations!</i>
+  <i>Open to Junior Clinical Data Engineer, Statistical Programmer, Clinical Data Programmer, and RWE opportunities.</i>
 </p>
