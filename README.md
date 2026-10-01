@@ -41,7 +41,7 @@ healthcare IT**, in Portugal, across Europe, or remotely.
 - **Data Engineering:** DuckDB, Pandas, ETL Pipelines, RAG (Retrieval-Augmented Generation)
 - **Clinical Standards:** OMOP CDM v5.4, CDISC (SDTM/ADaM), FHIR, OHDSI Ecosystem
 - **AI & ML:** Ollama, ChromaDB, Sentence-Transformers
-- **Software Engineering:** Pytest, Git, GitHub Actions, CI/CD, Ruff, Data Governance
+- **Software Engineering:** Flask, PostgreSQL, Pytest, Git, GitHub Actions, CI/CD, Ruff, Data Governance
 
 ---
 
@@ -80,6 +80,17 @@ flowchart LR
     G --> E
     E --> H["Real-World Evidence"]
 ```
+
+---
+
+### 💰 Beyond Clinical Data
+
+Financial literacy is a personal interest of mine. As a complementary full-stack
+project, I built [**Amealha**](https://amealha.pt), a personal finance platform
+for tracking income and expenses, managing accounts, sharing household costs,
+and exploring financial scenarios. It demonstrates my broader software
+engineering practice across Flask, PostgreSQL, authentication, privacy, automated
+testing, deployment, and production monitoring.
 
 ---
 
